@@ -1,0 +1,44 @@
+@import '../../GlobalStyles.scss';
+.add{
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1400px;
+        padding: 50px 0;
+        h1{
+            font-weight: 300;
+            color: $darkGreyColor;
+            margin-bottom: 30px;
+        }
+        .sections{
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+            .info, .details{
+                display: flex;
+                flex: 1 ;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: space-between;
+                label{
+                    font-size: 18px;
+                    color: $darkGreyColor;
+                }
+                input, select, textarea{
+                    padding: 20px;
+                }
+                button{
+                    border: none;
+                    padding: 20px;
+                    background-color: $secondColor;
+                    font-weight: 500;
+                    font-size: 15px;
+                    cursor: pointer;
+                    color: white;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,71 @@
+@import '../../GlobalStyles.scss';
+
+.featured{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: $mainColor;
+    color: white;
+    .container{
+        width: $mainWidth;
+        display: flex;
+        align-items: center;
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h1{
+                font-size: 40px;
+                i{
+                    font-weight: 300;
+                }
+            }
+            .search{
+                display: flex;
+                background-color: white;
+                justify-content: space-between;
+                border-radius: 5px 10px 10px 5px;
+                align-items: center;
+                img{
+                    width: 20px;
+                    height: 20px;
+                    margin: 0 10px;
+                }
+                input{
+                    flex-grow: 1;
+                    border: none;
+                    outline: none;
+                }
+                button{
+                    padding: 10px 20px;
+                    border: none;
+                    background-color: $secondColor;
+                    border-radius: 0 5px 5px 0;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            .popular{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                button{
+                    background-color: transparent;
+                    border: 1px solid white;
+                    padding: 5px 10px;
+                    font-size: 14px;
+                    color: white;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right{
+            img{
+                height: 400px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

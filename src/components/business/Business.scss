@@ -1,0 +1,69 @@
+@import '../../GlobalStyles.scss';
+
+.business-dark {
+    background-color: $darkBackgroundColor;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    .container {
+        width: $mainWidth;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        .item{
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h1{
+                font-weight: 500;
+                margin-bottom: 10px;
+                color: white;
+            }
+            .title{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-weight: 300;
+                font-size: 14px;
+                color: white;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+                span{
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: white;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+                }
+            }
+            button{
+                width: max-content;
+                margin-top: 10px;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                background-color: $secondColor;
+                border: none;
+                color: white;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 600px;
+                height: 400px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../GlobalStyles.scss';
+
+.trustedBy{
+    background-color: #fafafa;
+    height: 70px;
+    .container{
+        width: $mainWidth;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        span{
+            color: #c2c2c5;
+            font-weight: 500;
+        }
+        img{
+            width: 50px;
+            object-fit: contain;
+        }
+    }
+}

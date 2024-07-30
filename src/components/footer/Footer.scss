@@ -1,0 +1,72 @@
+@import '../../GlobalStyles.scss';
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: $greyColor;
+    margin: 10px 0;
+    background-color: $lightBackgroundColor;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+    .container{
+        width: 1400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+        .top{
+            display: flex;
+            justify-content: space-between;
+            .item{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h2{
+                    font-size: 16px;
+                    color: $darkGreyColor;
+                }
+                span{
+                    font-weight: 300;
+                }
+            }
+        }
+
+        hr{
+            margin: 20px 0;
+            height: 0;
+            border: 1px solid $lightGreyColor;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                span{
+                    font-size: 13px;
+                }
+            }
+            .right{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                .social{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+                .link{
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

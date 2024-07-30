@@ -1,0 +1,17 @@
+@import '../../GlobalStyles.scss';
+
+.stars{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    img{
+        width: 14px;
+        height: 14px;
+    }
+    span{
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 10px;
+        color: $goldColor;
+    }
+}
